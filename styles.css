@@ -1,0 +1,136 @@
+body{
+  color: white;
+}
+h1 {
+  font-family: 'Courgette', cursive;
+}
+
+h2 {
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+}
+
+.ab{
+  padding: 0 20vw;
+  font-size: 20px;
+}
+.b{
+  margin: 10px 1.8vw;
+}
+.ban {
+  padding-top: 10vw;
+}
+
+.btn-outline-success {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+  width: 60vw;
+  height: 37vw;
+
+  background-color: #343a40;
+  border: 1px solid white;
+  background: rgb(52, 58, 64);
+  background: linear-gradient(21deg, rgba(52, 58, 64, 1) 60%, rgba(122, 5, 129, 1) 87%);
+}
+
+.card-img-top {
+  width: 20vw;
+  height: 20vw;
+}
+
+.carousel-indicators {
+  padding-top: 20vw;
+  position: absolute;
+  z-index: 0;
+}
+
+.img {
+  width: 20vw;
+  height: 20vw;
+}
+.lin{
+  padding: 10px;
+}
+.navbar-brand1 {
+  font-family: 'Courgette', cursive;
+  padding-left: 5px;
+}
+
+.nav-item {
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.xyz:hover {
+  background-color: #6a197d;
+}
+#about{
+  text-align: center;
+
+}
+#contact {
+  text-align: center;
+}
+
+#projects {
+  text-align: center;
+  background: rgb(52, 58, 64);
+  background: linear-gradient(21deg, rgba(52, 58, 64, 1) 82%, rgba(136, 12, 143, 0.8522759445575105) 100%);
+}
+
+#title {
+  background-image: url(images/banner.png);
+  background-size: auto;
+  height: 35vw;
+  text-align: center;
+  font-family: 'Courgette', cursive;
+}
+
+#top-skills {
+  text-align: center;
+  background: rgb(52, 58, 64);
+  background: linear-gradient(15deg, rgba(52, 58, 64, 1) 26%, rgba(188, 14, 214, 1) 55%, rgba(241, 141, 0, 1) 100%);
+}
+
+@media (max-width: 1500px) {
+  .card-title {
+    display: none;
+  }
+
+  .card-text {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .card-title {
+    display: none;
+  }
+
+  .card-text {
+    display: none;
+  }
+
+  #top-skills {
+    background: rgb(52, 58, 64);
+    background: linear-gradient(0deg, rgba(52, 58, 64, 1) 60%, rgba(161, 25, 170, 1) 87%);
+  }
+
+  #projects {
+    text-align: center;
+    background: none;
+  }
+  .card{
+    background: none;
+  }
+}
